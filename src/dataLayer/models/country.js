@@ -10,7 +10,8 @@ export const FETCH_COUNTRIES = gql`
             currencies{
                 name,
                 code,
-                symbol
+                symbol,
+                exchangeRate
             }
         }
     }
